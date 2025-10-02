@@ -302,10 +302,12 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* 
       <section className="py-20 bg-muted/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Company Information */}
+            {/*
             <Card className="p-8">
               <h3 className="text-2xl font-bold mb-6">Şirket Bilgileri</h3>
               <div className="space-y-4 text-sm">
@@ -337,6 +339,7 @@ export default function ContactPage() {
             </Card>
 
             {/* Bank Information */}
+            {/*
             <Card className="p-8">
               <h3 className="text-2xl font-bold mb-6">Banka Bilgileri</h3>
               <div className="space-y-4">
@@ -360,9 +363,12 @@ export default function ContactPage() {
                 </div>
               </div>
             </Card>
+            */}
+          {/*
           </div>
         </div>
       </section>
+      */}
 
       {/* Map Section */}
       <section className="py-20 bg-muted/30">

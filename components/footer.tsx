@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Mail, Phone, MapPin, Facebook, Linkedin, Twitter, Instagram } from "lucide-react"
+import { Mail, Phone, MapPin, Facebook, Linkedin, X, Instagram } from "lucide-react"
 import Image from "next/image"
 
 export function Footer() {
@@ -42,7 +42,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#37C3FF] transition-colors"
               >
-                <Twitter className="h-5 w-5" />
+                <X className="h-5 w-5" />
               </a>
               <a
                 href="https://www.instagram.com/mvm_ups/"

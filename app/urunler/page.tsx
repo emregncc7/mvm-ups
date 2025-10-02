@@ -137,9 +137,9 @@ export default function ProductsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <img
-                src="/ups-system-technical-specifications-display.jpg"
+                src="/images/logo-icon.png"
                 alt="Technical Specifications"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div>

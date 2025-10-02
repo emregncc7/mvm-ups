@@ -41,7 +41,7 @@ export default function HomePage() {
               
               </h1>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              Enerji yönetiminde 20 yılı aşkın tecrübe. Finans, sağlık, 
+              Enerji yönetiminde 25 yılı aşkın tecrübe. Finans, sağlık, 
               telekom ve sanayi sektörlerinde güvenilir çözüm ortağınız.              </p>
             </div>
 
@@ -53,10 +53,12 @@ export default function HomePage() {
               İş sürekliliğiniz bizim güvencemiz altında. Özelleştirilmiş 
               KGK çözümleriyle maksimum koruma sağlıyoruz.
               </p>
-              <Button size="lg" className="w-full text-white font-semibold" style={{ backgroundColor: "#ED1C24" }}>
+              <Link href="/hakkimizda">
+              <Button size="lg" className="w-full text-white font-semibold cursor-pointer" style={{ backgroundColor: "#ED1C24" }}>
                 Devamını Gör
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
+              </Link>
             </Card>
           </div>
         </div>
