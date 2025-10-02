@@ -11,7 +11,7 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-[600px] flex items-center justify-center overflow-hidden mt-20">
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden mt-20 pt-8 md:pt-0">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
           <img
             src="/images/ups-corridor-installation.jpg"
@@ -20,10 +20,10 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-4 sm:pt-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-balance">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-balance">
               {" "}
                 <span className="italic" style={{ color: "#ED1C24" }}>
                 GÜÇ
@@ -45,7 +45,7 @@ export default function HomePage() {
               telekom ve sanayi sektörlerinde güvenilir çözüm ortağınız.              </p>
             </div>
 
-            <Card className="bg-white/95 backdrop-blur-sm p-8">
+            <Card className="bg-white/95 backdrop-blur-sm p-8 -mt-12 lg:mt-0">
               <h3 className="text-2xl font-bold mb-4" style={{ color: "#37C3FF" }}>
                 UPS ÇÖZÜMLERİ
               </h3>

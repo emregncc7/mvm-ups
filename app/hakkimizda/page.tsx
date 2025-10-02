@@ -33,7 +33,7 @@ export default function AboutPage() {
               alt="MvM UPS Elektronik - Flexible Power & Stable Protection"
               width={400}
               height={160}
-              className="h-auto w-auto max-w-md"
+              className="h-auto w-auto max-w-xs sm:max-w-md"
             />
           </div>
 
