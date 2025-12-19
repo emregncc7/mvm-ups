@@ -241,16 +241,6 @@ export default function AboutPage() {
               </div>
               <div className="relative h-[300px] rounded-lg overflow-hidden group">
                 <img
-                  src="/images/ups-installation-4.jpg"
-                  alt="UPS Kurulum Projesi 4"
-                  className="w-full h-full object-cover transition-transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                  <p className="text-white font-semibold">Modüler UPS Çözümleri</p>
-                </div>
-              </div>
-              <div className="relative h-[300px] rounded-lg overflow-hidden group">
-                <img
                   src="/images/ups-technician-laptop.jpg"
                   alt="Teknik Destek"
                   className="w-full h-full object-cover transition-transform group-hover:scale-105"
@@ -272,24 +262,12 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-8">
             <div className="text-center">
               <div className="text-5xl font-bold mb-2" style={{ color: "#37C3FF" }}>
                 25+
               </div>
               <p className="text-muted-foreground">Yıllık Deneyim</p>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold mb-2" style={{ color: "#ED1C24" }}>
-                500+
-              </div>
-              <p className="text-muted-foreground">Tamamlanan Proje</p>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold mb-2" style={{ color: "#37C3FF" }}>
-                300+
-              </div>
-              <p className="text-muted-foreground">Mutlu Müşteri</p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold mb-2" style={{ color: "#ED1C24" }}>
